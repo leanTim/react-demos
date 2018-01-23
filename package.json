@@ -1,0 +1,29 @@
+{
+  "name": "react-demos",
+  "version": "1.0.0",
+  "description": "This is a collection of simple demos of React.js.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel test -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leanTim/react-demos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leanTim/react-demos/issues"
+  },
+  "homepage": "https://github.com/leanTim/react-demos#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "dependencies": {}
+}
